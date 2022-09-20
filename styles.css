@@ -1,0 +1,440 @@
+/* Defining of Colors: */
+:root{
+    --light-beige: rgb(240, 235, 227);
+    --dark-beige: rgb(228, 220, 207);
+    --vin-green: rgb(125, 157, 156);
+    --dark-green: rgb(87, 111, 114);
+
+    --brown: #483838;
+    --green: #42855B;
+    --light-green: #90B77D;
+    --ocre: #D2D79F;
+    --nice-green: #C1D5A4;
+
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+/*End of Defining of Colors: */
+
+/* Font of Logo */
+.logo{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* CSS Common */
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+    font-weight: lighter;
+}
+
+body{
+  background-color: #C4DFAA;
+  /* #C1D5A4; */
+}
+/* End of CSS Common */
+
+/* Start of Header CSS */
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background: var(--brown);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    padding:1.2rem 7%;
+}
+
+#mainNavbar{
+  background-color: var(--brown);
+  }
+
+#mainLogo{
+  height: 3.125rem;
+  width: 3.125rem;
+  float: left;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.header .logo{
+    color:var(--light-green);
+    font-size: 2.5rem;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.header .logo span{
+    color:var(--green);
+    text-decoration: none;
+}
+
+.header .navbar{
+  overflow: visible;
+}
+
+.header .navbar a{
+    color: var(--light-green);
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    text-transform: none;
+    text-decoration: none;
+    padding:0.5rem ;
+}
+
+.header .navbar a:hover{
+    color: var(--green);
+}
+
+.navbar-toggler{
+  background-color: var(--green);
+  border-color: var(--green);
+}
+/* End of Header CSS */
+
+
+/*Start of Navbar Dropdown CSS */
+
+.dropdown {
+  float: left;
+  overflow: inherit;
+}
+
+.dropdown .dropbtn {
+  font-size: 1.7rem;
+  border: none;
+  outline: none;
+  color:  var(--light-green);
+  padding:0.5rem ;
+  background-color: inherit;
+  font-family: inherit;
+  margin-right: 0.5rem;
+}
+
+.dropbtn:hover {
+  background-color:  var(--green);
+  color: black
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--green);
+  color: black;
+  min-width: 10rem;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  /* float: none; */
+  background-color: black;
+  color: var(--green);
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--light-green);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--green);
+}
+/*End of Navbar Dropdown CSS */
+
+/* Start of Content CSS */
+.big-heading {
+  /* background-color: var(--brown) */
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.big-heading1 {
+  color: var(--green);
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.title-image {
+  margin-top: 0rem;
+  width: 60%;
+}
+
+#mb{
+  background-color: var(--green);
+  border: 0;
+  margin: 1rem 1rem;
+}
+
+#mb:hover {
+  color: var(--light-green);
+}
+
+#row1{
+  margin-top: 9.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#row2{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.colored-section {
+  background-color: var(--nice-green);
+  color: #black;
+}
+
+.def{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.link-mid{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.def a:hover{
+  color: var(--ocre);
+}
+/* End of Content CSS */
+
+
+/* Start of Review/Testimonial CSS Section */
+#testimonials {
+  background-color: var(--nice-green);
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  width: 5%;
+  border-radius: 100%;
+  /* margin: 5rem; */
+  text-align: center;
+}
+/* End of Review/Testimonial CSS Section */
+
+/* Misc CSS */
+.white-section {
+  background-color: var(--light-beige);
+}
+
+.container-fluid{
+  padding: 2rem 2rem;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: var(--green);
+  /* margin-bottom: 1rem; */
+}
+
+.icon:hover {
+  color: var(--light-green);
+}
+
+.category{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color: #FCF8E8;
+  color: var(--green);
+}
+/* End of Misc CSS */
+
+/* Start of Footer CSS */
+.footer{
+    position:static;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    /* justify-content: space-between; */
+    background: var(--brown);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer .credit{
+    /* text-transform: capitalize; */
+    font-size: 1rem;
+    color: var(--light-beige);
+}
+
+/* End of Footer CSS */
+
+/*Start of Media Query CSS */
+@media (max-width: 40em) {
+.title-image {
+  visibility:hidden;
+}
+table, tr, td{
+  display: block;
+}
+}
+/* End of Media Query CSS */
+
+
+/* contact css */
+
+.container-f{
+  padding-bottom: 3rem;
+}
+.card-body{
+  background-color: #C4DFAA;
+}
+
+.contact{
+  align: center;
+  margin-top: 6rem;
+  margin-left: 2.5rem;
+  margin-right: 3rem;
+  font-size: 2rem;
+  color: var(--brown);
+  text-decoration: none;
+}
+
+.contact td:hover{
+  color: var(--green);
+}
+
+table td{
+  padding: 3rem;
+}
+
+#icon-c{
+  height: 7rem;
+  width: 7rem;
+}
+
+.form{
+  align: center;
+}
+
+.footer-c{
+    position:static;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    /* justify-content: space-between; */
+    background: var(--brown);
+    text-align: center;
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+}
+
+/* end of contact css */
+
+/* start of activities css */
+#imgg{
+  height: 225px;
+  width: 350px;
+  padding: 0.5rem;
+}
+
+.activities{
+  margin-top: 2rem;
+}
+
+/* end of activities css */
+
+
+/* start of location css */
+.location{
+  align: center;
+  margin-top: 7rem;
+  margin-left: 2.5rem;
+  margin-right: 3rem;
+  color: var(--brown);
+  text-decoration: none;
+}
+
+#text-l{
+  font-size: 1rem;
+  color: var(--brown);
+}
+
+
+.card-l{
+  box-shadow: -0.25em 0.25em 0.5em grey;
+}
+
+.card-m{
+  box-shadow: 0 0.5em 0.5em -0.25em grey;
+}
+
+.card-r{
+  box-shadow: 0.25em 0.25em 0.5em grey;
+}
+
+.card-l:hover{
+  transform: translateY(-0.25em);
+}
+
+.card-m:hover{
+  transform: translateY(-0.25em);
+}
+
+.card-r:hover{
+  transform: translateY(-0.25em);
+}
+
+@media (max-width: 767px) {
+  img{
+    width: 100%;
+  }
+
+}
+/* end of location css */
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}

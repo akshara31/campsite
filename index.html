@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GoCamping</title>
+  <link rel="icon" href="images/tent.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font Logo -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;600&display=swap" rel="stylesheet">
+  <!-- font-family: 'Raleway', sans-serif; -->
+
+  <!-- Font Body -->
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap" rel="stylesheet">
+  <!-- font-family: 'Figtree', sans-serif; -->
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- header section starts  -->
+  <header class="header">
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top shadow-sm">
+      <img id="mainLogo" src="images/tent.png">
+      <a href="index.html" class="logo">Go<span>Camping</span></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item pr-2">
+            <a href="index.html" class="nav-link">homepage</a>
+          </li>
+          <li class="nav-item pr-2">
+            <div class="dropdown">
+              <button class="dropbtn">explore
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="activities.html">activites</a>
+                <a href="locations.html">locations</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="booknow.html" class="nav-link">book now</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- header section ends -->
+
+  <!--  -->
+  <!-- content starts here -->
+  <main>
+    <!-- Title / About Us -->
+    <div class="row" id="row1">
+      <div class="col-lg-6">
+        <h2>Desperately in need of a getaway? Take a break from everyday life in nature!</h2>
+        <h1 class="big-heading">That's what we're here for.</h1>
+        <p class="aboutus">We're a small group of like-minded and passionate campers that find solace in the simplest of beauties nature can provide!
+          In this busy world, everyone needs to take a break once in a while. A break where they find themselves in nature!
+          Come join us on our adventures, and help us to help you:)
+       </p>
+        <a href="activities.html">
+          <button type="button" class="btn btn-dark btn-lg" id="mb">activities</button>
+        </a>
+        <a href="locations.html">
+          <button type="button" class="btn btn-dark btn-lg" id="mb">explore locations</button>
+        </a>
+      </div>
+
+      <div class="col-lg-6">
+        <img class="title-image" src="images/1.jpg">
+      </div>
+    </div>
+    <!-- End of Title / About Us -->
+
+
+    <!-- Categories -->
+    <div class="category">
+      <div class="row">
+        <div class="def col-lg-6">
+          <a href="activities.html" class="link-mid">
+            <h1 id="hostel" class="big-heading1">Activities</h1>
+          </a>
+          <p class="aboutus">A wide range of fun, action-adrenaline filled activities that will bring out your worst fears. We even have
+          activities for the lazy laid back kind for the relaxing calm days. Check out all the activities that we provide here</p>
+          <img src="images/2.jpg" alt="" height="300" width="550">
+        </div>
+
+        <div class="def col-lg-6">
+          <a href="locations.html" class="link-mid">
+              <h1 id="station" class="big-heading1">Locations</h1>
+          </a>
+          <p class="aboutus">We offer camping activities in a wide range of locations from the north to south, for everyone across the country.
+          Look up here for locations to see which one is the closest to you and register now, seats fill in pretty quick!</p>
+          <img src="images/3.jpg" alt="" height="300" width="550">
+        </div>
+      </div>
+    </div>
+    <!--End of Categories -->
+
+
+    <!-- Features -->
+    <section class="white-section" id="features">
+
+      <div class="container-fluid">
+        <div class="row" id="row2">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">Unforgettable Experiences</h3>
+            <p>We at GoCamping are committed to helping you discover more for your budget and see more than what you expected</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3 class="feature-title">Elite Clientele</h3>
+            <p>We have dedicated staff and trainers which means customers can book with full confidence that they are in safe hands.</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">Guaranteed Satisfaction</h3>
+            <p>We assure you, this is a trip you can never forget.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Features -->
+
+
+    <!-- Reviews (Testimonials) -->
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <p class="testimonial-text">"Experience of a Lifetime! Had the best camping trip ever!"</p>
+            <center>
+              <img class="testimonial-image" src="images/user.png">
+            </center>
+            <center>
+              <em>Ram, Himachal</em>
+            </center>
+          </div>
+          <div class="carousel-item container-fluid">
+            <p class="testimonial-text">"I love this site! I've found a camping solution that suits all my needs!"</p>
+            <center>
+              <img class="testimonial-image" src="images/user.png">
+            </center>
+            <center>
+              <em>Piyush, Assam</em>
+            </center>
+          </div>
+          <div class="carousel-item container-fluid">
+            <p class="testimonial-text">"Very User Friendly and Great Interface! Brilliant Work with the thought behind this:)" </p>
+            <center>
+              <img class="testimonial-image" src="images/user.png">
+            </center>
+            <center>
+              <em>Sara, Mumbai</em>
+            </center>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!-- End of Reviews (Testimonials) -->
+  </main>
+
+  <!-- Footer section starts  -->
+  <div class="footer">
+      <p class="credit">Created with ❤️ by akshara</p>
+  </div>
+  <!-- End of Footer section ends -->
+
+</body>
+</html>
